@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Robot Movement Challenge</title>
+  <link rel="stylesheet" href="../styles/app.css">
+</head>
+
+<body>
+  <div class="app-container">
+    <h1>Robot Movement Challenge</h1>
+    <div class="room">
+    </div>
+    <div class="controls">
+      <select id="language-select">
+        <option value="en">English</option>
+        <option value="sv">Swedish</option>
+      </select>
+
+      <select id="shape-select">
+        <option value="Square">Square</option>
+        <option value="Circle">Circle</option>
+      </select>
+
+      <input type="text" id="commands" placeholder="Enter Commands (F, L, R)">
+      <button id="execute">Execute</button>
+      <button id="reset" type="reset">Reset</button>
+      <p id="output"></p>
+    </div>
+  </div>
+  <script src="bundle.js"></script>
+</body>
+
+</html>

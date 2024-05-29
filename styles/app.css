@@ -1,0 +1,38 @@
+/* app-container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* room */
+.room {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ddd;
+  background-color: #eee;
+  margin-bottom: 20px;
+  position: relative;
+  /* For potential robot image positioning */
+}
+
+/* controls */
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* controls button */
+.controls button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+/* output */
+.output {
+  font-weight: bold;
+  margin: 0;
+}

@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "*": ["*"]
+    },
+    "target": "es5", // Compile to ES5 for wider browser compatibility
+    "lib": ["dom", "dom.iterable", "esnext"], // Include necessary libraries
+    "allowJs": true, // Allow importing JavaScript files
+    "skipLibCheck": true, // Skip type checking for external libraries (optional)
+    "strict": true, // Enable strict null checks and other strictness
+    "sourceMap": true, // Generate source maps for debugging
+    "module": "esnext", // Use ESNext modules (optional)
+    "moduleResolution": "node", // Use Node.js module resolution strategy
+    "outDir": "./dist", // Output compiled JavaScript to the 'dist' folder (optional)
+    "esModuleInterop": true, // Allow smooth interop between ES Modules and CommonJS (optional)
+  },
+  "include": ["src/**/*.ts"],  // Specify the source directory containing TypeScript files
+  "exclude": ["node_modules"]
+}
