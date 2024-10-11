@@ -49,8 +49,10 @@ const resetHandler = (): void => {
 
   if (selectedShape === Shape.Circle) robot.position = { x: 0, y: 0 };
 
-  commandsInput.value = '';
-  
+  if (commandsInput) {
+    commandsInput.value = '';
+  }
+
   console.log(` Robot reset to ${JSON.stringify(robot)}.`);
   renderOutput();
 };
